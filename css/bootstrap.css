@@ -210,6 +210,10 @@ img {
   border-style: none;
 }
 
+#grad{
+  background-image: :url(Sunset-Photography-28.jpg);
+}
+
 svg:not(:root) {
   overflow: hidden;
   vertical-align: middle;
@@ -6134,9 +6138,12 @@ button.bg-light:hover,
 button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
+#grad {
+  background-image: linear-gradient(black, white);
+}
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #000000 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
